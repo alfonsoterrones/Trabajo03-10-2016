@@ -20,6 +20,14 @@
         <servlet-name>estiloParametros</servlet-name>
         <servlet-class>estiloParametros</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Formulario</servlet-name>
+        <servlet-class>servlets.Formulario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FormularioCompleto</servlet-name>
+        <servlet-class>servlets.FormularioCompleto</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>saludo</servlet-name>
         <url-pattern>/saludo</url-pattern>
@@ -39,6 +47,14 @@
     <servlet-mapping>
         <servlet-name>estiloParametros</servlet-name>
         <url-pattern>/estiloParametros</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Formulario</servlet-name>
+        <url-pattern>/Formulario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FormularioCompleto</servlet-name>
+        <url-pattern>/FormularioCompleto</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
